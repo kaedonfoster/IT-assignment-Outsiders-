@@ -27,10 +27,9 @@ body{
 
 
 .logo a{
-   
     font-family: 'Allura', cursive;
     font-size: 3em;
-    color: 	#282828;
+    color: orange;
     display: flex;
     text-decoration: none;
     margin-left: 5%;
@@ -39,7 +38,7 @@ body{
 
 
 .navbar ul{
-        display: flex;
+    display: flex;
     }
 
 .navbar ul li{
@@ -87,9 +86,7 @@ body{
     
   }
   
-  .row
-  
-  {
+  .row{
       text-align: center;
   }
   
@@ -98,6 +95,8 @@ body{
       margin-top: 0%;
   }
 
-  .favimg span{
-      font-size: 20em;
+  .favimg{
+      font-size: 2em;
+      color:orange;
   }
+
