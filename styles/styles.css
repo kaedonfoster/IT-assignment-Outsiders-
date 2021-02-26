@@ -13,6 +13,8 @@ background: linear-gradient(90deg, rgba(89,88,102,1) 52%, rgba(173,173,173,1) 10
     outline: none;
     list-style-type: none;
     justify-content: none;
+    position: relative;
+    min-height: 100vh;
 
   }
 
@@ -32,7 +34,7 @@ background: linear-gradient(90deg, rgba(57,54,99,1) 48%, rgba(173,173,173,1) 100
     
 }
 
-/*links*/
+/*navbar*/
 
 .navbar{
     justify-content: space-around;
@@ -43,6 +45,11 @@ background: linear-gradient(90deg, rgba(57,54,99,1) 48%, rgba(173,173,173,1) 100
 }
 
 
+.active{
+   background:skyblue;
+   padding:4px;
+   pointer-events: none;
+}
 
 .logo a{
    
@@ -64,7 +71,7 @@ background: linear-gradient(90deg, rgba(57,54,99,1) 48%, rgba(173,173,173,1) 100
     margin: 0 10px;
     list-style-type: none;
     display: flex;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .navbar ul li a{
@@ -105,11 +112,13 @@ background: linear-gradient(90deg, rgba(57,54,99,1) 48%, rgba(173,173,173,1) 100
 
 }
 
+
 img{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 0;
     width: 50%; 
+    margin-bottom: 80px;
 }
 
 
@@ -150,3 +159,15 @@ span{
   display:none;
 }
   }
+
+  footer{
+    background-color:black;
+    color:white;
+    z-index: 10000;
+    width:100%;
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 5px;
+    position: fixed;
+    bottom: 0;
+}
