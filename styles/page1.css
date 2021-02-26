@@ -131,3 +131,28 @@ footer{
     margin-top: 5px;
     bottom: 0;
 }
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+
+li{
+    text-align:left;
+}
+
+.list-pony-boy h1{
+    color:orange;
+    font-size:20px;
+    color:white;
+}
+
+.list-pony-boy li{
+    margin-left:20px;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
